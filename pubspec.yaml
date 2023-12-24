@@ -1,6 +1,8 @@
 name: offline_localization
-description: "An Offline tool for Localizations using Excel files"
-version: 1.0.1
+description: |
+  A Flutter package for convenient and offline localization using Excel files.
+  Manage translations effortlessly with support for multiple languages.
+version: 1.0.2
 homepage: "https://github.com/SujalChoudhari/offline_localization"
 
 environment:

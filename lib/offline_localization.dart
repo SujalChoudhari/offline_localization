@@ -1,12 +1,28 @@
+/// A simple Flutter package for convenient and offline localization using Excel files.
+///
+/// This package provides the `Loc` class, which allows you to manage translations
+/// in your Flutter application using an Excel file stored locally.
 library offline_localization;
 
 import 'package:excel/excel.dart';
 import 'dart:io';
 
 /// A simple localization class that reads translations from an Excel file.
+///
+/// Usage:
+/// ```dart
+/// // Initialize Loc with the initial language
+/// await Loc.initialize('assets/translations.xlsx', 'en');
+///
+/// // Get a translated value
+/// String helloTranslation = Loc.get('hello_key');
+/// ```
 class Loc {
+  // Private Variables
+  static late Excel _excel;
+  static late String _currentLanguage;
+  static late Map<String, Map<String, String>> _translations;
 
-  // Public Methods
   /// Initializes the Loc class with translations from the specified Excel file.
   ///
   /// This method loads translations from the Excel file located at [filePath]
@@ -64,9 +80,4 @@ class Loc {
 
     return translations;
   }
-
-  // Private Variables
-  static late Excel _excel;
-  static late String _currentLanguage;
-  static late Map<String, Map<String, String>> _translations;
 }

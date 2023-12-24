@@ -22,7 +22,7 @@ To use this package, add `offline_localization` as a dependency in your `pubspec
 
 ```yaml
 dependencies:
-  offline_localization: ^1.0.1
+  offline_localization: ^1.0.2
 ```
 
 ## Getting Started
