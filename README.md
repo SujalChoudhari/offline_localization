@@ -68,6 +68,9 @@ See the example directory for a sample Flutter application using `offline_locali
 
 This package assumes that the Excel file follows a specific format, with keys in the first column
 and languages in subsequent columns. Make sure your Excel file is structured accordingly.
+| keys | lang1 | lang2 | lang3 | 
+|------|-------|-------|-------|
+| key_hello | Hello in Lang 1 | Hello in Lang2 | Hello in Lang 3 |
 
 ## Issues and Feedback
 
