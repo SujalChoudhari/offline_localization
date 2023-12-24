@@ -1,5 +1,5 @@
 name: offline_localization
-description: "A Offline Localization tool for simple Localisations using CSV files."
+description: "An Offline tool for Localizations using Excel files"
 version: 1.0.0
 homepage: "https://github.com/SujalChoudhari/offline_localization"
 

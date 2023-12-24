@@ -1,6 +1,5 @@
 # Offline Localization
-
-A Flutter package for offline localization using Excel files.
+An Offline tool for Localizations using Excel files.
 
 ## Overview
 
@@ -23,7 +22,7 @@ To use this package, add `offline_localization` as a dependency in your `pubspec
 
 ```yaml
 dependencies:
-  offline_localization: ^1.0.0
+  offline_localization: ^1.0.1
 ```
 
 ## Getting Started
@@ -49,8 +48,7 @@ void main() async {
 
 ```dart
 // Change the current language to 'fr'
-await
-Loc.changeLocale("assets/translations.xlsx",'fr');
+await Loc.changeLocale("assets/translations.xlsx",'fr');
 ```
 
 ### Retrieve Translations
@@ -70,7 +68,8 @@ This package assumes that the Excel file follows a specific format, with keys in
 and languages in subsequent columns. Make sure your Excel file is structured accordingly.
 | keys | lang1 | lang2 | lang3 | 
 |------|-------|-------|-------|
-| key_hello | Hello in Lang 1 | Hello in Lang2 | Hello in Lang 3 |
+| hello_key | Hello in Lang 1 | Hello in Lang2 | Hello in Lang 3 |
+| other_key | Other in Lang 1 | Other in Lang2 | Other in Lang 3 |
 
 ## Issues and Feedback
 
