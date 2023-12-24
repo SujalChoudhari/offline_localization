@@ -1,6 +1,6 @@
 name: offline_localization
 description: "An Offline tool for Localizations using Excel files"
-version: 1.0.0
+version: 1.0.1
 homepage: "https://github.com/SujalChoudhari/offline_localization"
 
 environment:
